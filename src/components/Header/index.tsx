@@ -14,7 +14,7 @@ export const Header = () => {
             </li>
             <li>
               <a 
-              href={`${BASE_URL}/waframes`} 
+              href={`${BASE_URL}/warframes`} 
               target="_blank" 
               rel="noreferrer">
                 Raw API
