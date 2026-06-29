@@ -2,6 +2,7 @@ export interface Ability {
     name: string;
     description: string;
     type: string;
+    imageName: string;
 }
 
 export interface Warframe {
