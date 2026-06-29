@@ -3,15 +3,17 @@ import { Header } from "../Header";
 import { Footer } from "../Footer";
 
 export const Layout = () => {
+  return (
     <>
-        <div>
-            <Header />
+      <div>
+        <Header />
 
-            <main>
-                <Outlet />
-            </main>
+        <main>
+          <Outlet />
+        </main>
 
-            <Footer />
-        </div>
+        <Footer />
+      </div>
     </>
-}
+  );
+};

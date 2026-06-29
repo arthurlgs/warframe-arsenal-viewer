@@ -13,6 +13,7 @@ export interface Warframe {
     // Base stats
     health: number;
     shield: number;
+    armor: number;
     power: number; // energy
     sprintSpeed: number;
 
